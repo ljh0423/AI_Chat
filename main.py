@@ -6,7 +6,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://app.onecompiler.com"],
+    allow_origins=["https://ljh0423.github.io"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
