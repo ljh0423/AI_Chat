@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p001",
+    "name": "Men's Running Shoes",
+    "description": "Lightweight and breathable running shoes for daily training.",
+    "category": "Footwear",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1637437757614-6491c8e915b5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "p002",
+    "name": "Women's Yoga Pants",
+    "description": "Comfortable and stretchy yoga pants for all-day wear.",
+    "category": "Apparel",
+    "price": 39.99,
+    "image_url": "https://media.istockphoto.com/id/609797020/photo/blue-and-gray-womens-athletic-pants-on-white.jpg?s=2048x2048&w=is&k=20&c=uMPxyX45hwtdWoyuflCLPdF40Cc1dJ2B8fPp9CCYXF4="
+  },
+  {
+    "id": "p003",
+    "name": "Waterproof Hiking Jacket",
+    "description": "Durable waterproof jacket suitable for all weather conditions.",
+    "category": "Outerwear",
+    "price": 119.99,
+    "image_url": "https://m.media-amazon.com/images/I/71Db5BQOtjL._AC_UY1000_.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "Bluetooth Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with long battery life.",
+    "category": "Electronics",
+    "price": 149.99,
+    "image_url": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/matte-black/black-01-solo4.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated water bottle keeps drinks cold for 24 hours.",
+    "category": "Accessories",
+    "price": 24.99,
+    "image_url": "https://contents.mediadecathlon.com/p2477617/a13d1b970b0696591f576d2f540100f202b2690e259ad4d9cac8f3f84dcfeeaf/water-bottle-with-screw-cap-stainless-steel-1-l-bushcraft-grey.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "Kids' Waterproof Rain Boots",
+    "description": "Bright and fun rain boots that keep feet dry.",
+    "category": "Footwear",
+    "price": 34.99,
+    "image_url": "https://m.media-amazon.com/images/I/71+83w5mx5L._AC_UY900_.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "Men's Graphic T-Shirt",
+    "description": "Soft cotton t-shirt with cool graphic print.",
+    "category": "Apparel",
+    "price": 19.99,
+    "image_url": "https://media-www.marks.com/product/marks-work-wearhouse/mens-world/t-shirts/410038101288/wrangler-ss-graphic-t-shirts-e8aaf0a7-524a-45bf-ba3a-9225ff380aa4-jpgrendition.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "Compact Digital Camera",
+    "description": "12MP digital camera with optical zoom and video recording.",
+    "category": "Electronics",
+    "price": 249.99,
+    "image_url": "https://thecamerastore.com/cdn/shop/products/Products15177-1000x1000-490130_600x.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "Women's Running Shorts",
+    "description": "Lightweight and breathable shorts for running.",
+    "category": "Apparel",
+    "price": 29.99,
+    "image_url": "https://craftsports.ca/cdn/shop/files/1914596-387000_PROHyperventSplitShorts2W_Front.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "Smart Fitness Tracker",
+    "description": "Track your steps, heart rate, and sleep patterns.",
+    "category": "Electronics",
+    "price": 99.99,
+    "image_url": "https://m.media-amazon.com/images/I/51G8SFzGGdL._AC_UF894,1000_QL80_DpWeblab_.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "Men's Casual Sneakers",
+    "description": "Stylish and comfortable sneakers for everyday use.",
+    "category": "Footwear",
+    "price": 59.99,
+    "image_url": "https://media-www.marks.com/product/marks-work-wearhouse/mens-world/mens-casual-footwear/410034661618/denver-hayes-men-s-casual-lace-up-wide-fit-sneakers-black-faf963e7-fe36-4214-9d9e-8cd019e24d50-jpgrendition.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "Outdoor Camping Tent",
+    "description": "4-person waterproof tent with easy setup.",
+    "category": "Outdoor",
+    "price": 199.99,
+    "image_url": "https://m.media-amazon.com/images/I/71DPerT9EKL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": "p013",
+    "name": "Women's Sports Bra",
+    "description": "Supportive and comfortable sports bra for workouts.",
+    "category": "Apparel",
+    "price": 24.99,
+    "image_url": "https://www.sportscontact.ca/cdn/shop/files/BV3636-630-1----0-d2e8d138d91547c292a950082bd4ff88.jpg"
+  },
+  {
+    "id": "p014",
+    "name": "Noise-Isolating Earbuds",
+    "description": "In-ear earbuds with deep bass and clear sound.",
+    "category": "Electronics",
+    "price": 49.99,
+    "image_url": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/172/17212/17212845.jpg"
+  },
+  {
+    "id": "p015",
+    "name": "Kids' Backpack",
+    "description": "Durable backpack with fun prints, perfect for school.",
+    "category": "Accessories",
+    "price": 29.99,
+    "image_url": "https://m.media-amazon.com/images/I/91Sjo4oF85L._AC_UY1000_.jpg"
+  },
+  {
+    "id": "p016",
+    "name": "Men's Wool Sweater",
+    "description": "Warm and cozy wool sweater for winter days.",
+    "category": "Apparel",
+    "price": 79.99,
+    "image_url": "https://cdni.llbean.net/is/image/wim/511548_179_41"
+  },
+  {
+    "id": "p017",
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat with comfortable cushioning.",
+    "category": "Fitness",
+    "price": 39.99,
+    "image_url": "https://m.media-amazon.com/images/I/61FTABGJz3L.jpg"
+  },
+  {
+    "id": "p018",
+    "name": "Smartphone Car Mount",
+    "description": "Adjustable car mount holder for smartphones.",
+    "category": "Accessories",
+    "price": 19.99,
+    "image_url": "https://www.atlantia.ca/cdn/shop/files/media_819bb7cf-5c17-4239-b2d3-989580549640.jpg"
+  },
+  {
+    "id": "p019",
+    "name": "Wireless Charging Pad",
+    "description": "Fast wireless charger compatible with most devices.",
+    "category": "Electronics",
+    "price": 29.99,
+    "image_url": "https://m.media-amazon.com/images/I/61oIAKY9s1L.jpg"
+  },
+  {
+    "id": "p020",
+    "name": "Men's Waterproof Watch",
+    "description": "Durable watch with waterproof design and date display.",
+    "category": "Accessories",
+    "price": 99.99,
+    "image_url": "https://www.zymak.com.bd/wp-content/uploads/2018/12/Curren-Watch-For-Men-Model-8106-Black-Original--600x600.jpg"
+  }
+]
