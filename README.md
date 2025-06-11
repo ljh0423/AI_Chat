@@ -34,21 +34,22 @@ My primary focus throughout the project was optimizing for efficiency and minimi
 ---
 
 
-## Implementation Considerations
+## Chat Endpoint
 
 POST /chat
 This endpoint accepts a user query and/or image input and returns a chatbot-generated response along with relevant product recommendations.
 
-Request Parameters
-Name	Type	Location	Required	Description
-session_id	string	form	Yes	Unique identifier for the user session (used to maintain conversation history).
-user_query	string	form	Yes	Text query from the user (ignored if an image is submitted).
-image_url	string	form	No	Optional URL to an image for product search.
-image	UploadFile	file	No	Optional uploaded image file for product search.
+Request  Parameters
+| Name |	Type |	Location |	Required |	Description |
+| ----------- | ----------- | --- | --- | --- |
+| session_id |	string |	form |	Yes	| Unique identifier for the user session (used to maintain conversation history).|
+| user_query |	string |	form |	Yes |	Text query from the user (ignored if an image is submitted).|
+|image_url |	string |	form	| No |	Optional URL to an image for product search.|
+|image |	UploadFile |	file |	No |	Optional uploaded image file for product search.|
 
 Note: Either user_query or one of image / image_url must be provided.
 
-Behavior
+### Behavior
 If an image or image_url is provided, the image is used to search for similar products.
 
 The user_query is internally replaced with a fixed prompt to contextualize the response.
@@ -64,9 +65,10 @@ The response and filtered product recommendations are returned.
 Response
 Returns a JSON object with:
 
-Field	    Type	  Description
-response	string	LLM-generated reply to the user’s query.
-products	list	  List of product dictionaries relevant to the conversation context.
+|Field	 |   Type	 | Description|
+| ---- | ---- | --- |
+|response	|string	|LLM-generated reply to the user’s query.|
+|products	|list	  |List of product dictionaries relevant to the conversation context.|
 
 Each product in products contains fields like name, image_url, description, etc., depending on the structure returned by the search_products function.
 
