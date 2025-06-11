@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Assistant</title>
+  <link rel="stylesheet" href="ai_chat.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Assistant</h1>
+
+    <div id="chat-history" class="chat-history"></div>
+
+    <form id="chat-form">
+      <textarea id="query" placeholder="Ask about a product..."></textarea>
+      <input type="file" id="image" accept="image/*" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="ai_chat.js"></script>
+</body>
+</html>
