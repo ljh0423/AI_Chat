@@ -21,9 +21,6 @@ My primary focus throughout the project was optimizing for efficiency and minimi
 - **Fetch API** – Sends `FormData` to the backend with support for file uploads.
 - **LocalStorage** – Maintains session ID across page reloads.
 
-### 🚀 Hosting
-- **GitHub Pages** – Hosts static HTML/CSS/JS frontend.
-
 ---
 
 ## 🧠 Features
