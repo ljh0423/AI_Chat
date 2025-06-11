@@ -84,6 +84,8 @@ def generate_prompt(session_id, query, search_results):
     product_snippets = "\n".join(
         [f"- {p['name']}: {p['description']}, category: {p['category']}, price: {p['price']}" for p in search_results]
     )
+    if len(session_histories) >= 100:
+        session_histories = {}
     prompt = (
         f"""You are an AI assistant helping a user find products.
         Conversation summary so far:
