@@ -1,6 +1,7 @@
 # 🛍️ AI Commerce Chat Assistant
 
-A lightweight AI-powered shopping assistant that supports multimodal queries (text and images) for product recommendations. It maintains conversational history, handles image uploads, and integrates product search using vector similarity.
+A lightweight AI-powered shopping assistant that supports multimodal queries (text and images) for product recommendations. It maintains conversational history, handles image uploads, and integrates product search using vector similarity.\
+My primary focus throughout the project was optimizing for efficiency and minimizing latency in both model inference and response delivery.
 
 ---
 
