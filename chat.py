@@ -39,9 +39,9 @@ text_index = faiss.read_index(TEXT_INDEX_PATH)
 image_index = faiss.read_index(IMAGE_INDEX_PATH)
 
 # Load embedding model
-text_model = SentenceTransformer("all-MiniLM-L6-v2")
-clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
-clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+text_model = SentenceTransformer("paraphrase-MiniLM-L3-v2")
+clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch16")
+clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch16")
 
 # Groq API config
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
