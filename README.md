@@ -21,7 +21,7 @@ A lightweight AI-powered shopping assistant that supports multimodal queries (te
 - **LocalStorage** – Maintains session ID across page reloads.
 
 ### 🚀 Hosting
-- **GitHub Pages or Netlify (frontend)** – Hosts static HTML/CSS/JS frontend.
+- **GitHub Pages** – Hosts static HTML/CSS/JS frontend.
 
 ---
 
