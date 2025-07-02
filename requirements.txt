@@ -6,6 +6,7 @@ python-dotenv
 requests
 Pillow
 torch
+groq
 transformers
 sentence-transformers
 faiss-cpu
